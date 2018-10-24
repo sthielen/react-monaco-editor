@@ -20,7 +20,8 @@
       "env",
       "react",
       "stage-0"
-    ]
+    ],
+    "plugins": ["transform-class-properties"]
   },
   "keywords": [
     "monaco",
@@ -45,6 +46,7 @@
     "babel-env": "^2.4.1",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^4.19.1",
